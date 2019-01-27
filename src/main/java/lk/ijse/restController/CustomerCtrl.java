@@ -19,7 +19,7 @@ public class CustomerCtrl {
     public void addCustomer(@RequestBody CustomerDTO customerDTO){
 
         System.out.println("change for git hub testing !!!");
-
+        System.out.println("sout for master");
         customerService.addCustomer(customerDTO);
     }
 
